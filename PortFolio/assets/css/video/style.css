@@ -1,0 +1,345 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+header{
+    background-color: white;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 20px;
+    border: none;
+    border-right: 10px solid rgb(241, 240, 240);
+}
+
+header label{
+    color: rgb(68, 66, 66);
+    display: block;
+}
+header label:nth-child(4){
+    font-size: 20px;
+    color: #ccc;
+}
+label:nth-child(3){
+    font-size: 35px;
+    color: rgb(67, 66, 66);
+    font-weight: bold;
+}
+
+header ul li a{
+    color: rgb(73, 72, 72);
+    width: 99%;
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+} 
+header ul li a:hover{
+    background-color: rgb(214, 213, 213);
+    border-right: 3px solid rgb(233, 233, 11);
+}
+header .social{
+    color: rgb(112, 111, 111);
+    width: 50px;
+    height: 20px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(230, 228, 228);
+}
+header .social:hover{
+    background-color: rgb(209, 205, 205);
+}
+
+
+.container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 310px;
+    width: auto;
+    height: 100vh;
+    background-color: white;
+}
+.container img{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+.container .container-items{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(168, 166, 166, 0.2);
+    backdrop-filter: blur(10px);
+}
+.container .items{
+    width: 100%;
+}
+.items label{
+    list-style: none;
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.items label:nth-child(1){
+    font-size: 100px;
+}
+.items label:nth-child(2){
+    font-size: 30px;
+    color: rgb(195, 194, 194);
+}
+.items section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items article{
+    width: auto;
+    color: white;
+}
+article div{
+    padding: 15px;
+    font-size: 25px;
+}
+article div u{
+    text-decoration: underline yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+    pour la page About Me
+*/
+.container-items-about-me, .container-items-resume, .container-items-portfolio{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+}
+.header-about-me{
+    width: 100%;
+    height: auto;
+}
+.header-about-me h2{
+    background-color: rgb(253, 253, 57);
+    padding-left: 50px;
+    padding-right: 20px;
+    color: rgb(216, 213, 213);
+    font-size: 30px;
+    height: 50px;
+}
+.header-about-me span{
+    margin-left: 20px;
+    color: rgb(146, 143, 143);
+}
+
+.container-about-me-2 h3,.foot1-about-me h3,.foot2-about-me h3,.foot3-about-me h3{
+    text-decoration: underline 5px rgb(253, 253, 57);
+} 
+.container-about-me .citation-q{
+    font-style: italic;
+    padding-left: 100px;
+}
+.container-about-me .image-logo{
+    width: 100%;
+}
+.container-about-me .image-logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.container-about-me .image-logo label{
+    font-size: 20px;
+    margin-left: 20px;
+    list-style: none;
+}
+.container-about-me .image-logo label:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.container-about-me .image-logo label:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(134, 133, 133);
+    font-size: 10px;
+    font-style: italic;
+}
+.back{
+    background-color: white;
+}
+.height{
+    height: 100%;
+}
+.padding-left-right{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.m{
+    margin-left: 70px;
+}
+.foot1-about-me{
+    
+}
+.foot1-about-me h3{
+    margin-left: 50px;
+}
+.foot1-about-me div{
+    margin: 20px;
+}
+.foot1-about-me img, .foot2-about-me img, .foot3-about-me img{
+    width: 100px;
+    height: 100px;
+}
+.foot2-about-me h3{
+    margin-left: 50px;
+}
+.foot2-about-me, .foot3-about-me{
+    width: 100%;
+}
+.foot2-about-me img{
+    border-radius: 100%;
+    margin: 10px;
+}
+.foot3-about-me h3{
+    margin-left: 50px;
+}
+.foot3-about-me img{
+    border-radius: 100%;
+    margin: 50px;
+}
+
+
+
+
+
+/*
+    css pour la page resume
+*/
+
+.container-body h3, .contact-container-body h3{
+    text-decoration: underline yellow;
+    color: black;
+}
+.container-body h4{
+    width: 30%;
+    height: 30px;
+    padding-right: 10px;
+    justify-content: right;
+    color: white;
+    background-color: rgb(22, 165, 22);
+}
+.container input{
+    margin-bottom: 100px;
+    width: 20%;
+    color: rgb(36, 35, 35);
+    height: 40px;
+    border: 1px solid yellow;
+    border-radius: 0px;
+    background-color: rgb(223, 221, 221);
+}
+.container input:hover{
+    background-color: rgb(171, 204, 247);   
+}
+.container-body p{
+    padding-left: 35px;
+    color: rgb(126, 120, 120);
+}
+.container-body span{
+    color: black;
+    display: block;
+}
+.container-body span:nth-child(1){
+    font-size: 15px;
+    font-weight: bold;
+}
+.container-body span:nth-child(2){
+    font-size: 12px;
+    color: rgb(179, 160, 160);
+}
+.container-body-center h4{
+    width: 60%;
+}
+.container-body-rigth{
+    padding-left: 20px;
+}
+.container-body-rigth u{
+    text-decoration: none;
+    margin: 0px;
+    font-size: 15px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.charge{
+    border: 1px solid rgb(216, 255, 73);
+    width: 100%;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+
+
+
+/*
+    css pour portfolio
+*/
+.folio-container ul{
+    height: 30px;
+}
+.folio-container ul li{
+    background-color: white;
+    width: 10%;
+    margin: 5px;
+    display: flex;
+}
+.folio-container ul li:nth-child(4){
+    color: white;
+    background-color: rgb(252, 215, 49);
+}
+.folio-container ul li:hover{
+    background-color: rgb(252, 215, 49);
+}
+.folio-container ul li a{
+    height: 30px;
+    width: 100%;
+    color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.folio-container ul li a:hover{
+    color: white;
+}
+.folio-container-body{
+    margin-top: 50px;
+}
+.folio-container-body img, source{
+    width: 32.33%;
+    height: 300px;
+    margin: 10px;
+}
+.blog-container img{
+    width: 90%;
+    height: 300px;
+    margin: 10px;
+}

@@ -1,0 +1,36 @@
+.folio-video-container ul{
+    height: 30px;
+}
+.folio-video-container ul li{
+    background-color: white;
+    width: 10%;
+    margin: 5px;
+    display: flex;
+}
+
+.folio-container ul li:nth-child(4){
+    color: white;
+    background-color: rgb(252, 215, 49);
+}
+.folio-video-container ul li:hover{
+    background-color: rgb(252, 215, 49);
+}
+.folio-video-container ul li a{
+    height: 30px;
+    width: 100%;
+    color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.folio-video-container ul li a:hover{
+    color: white;
+}
+.folio-container-body{
+    margin-top: 50px;
+}
+.folio-video-container-body video{
+    width: 33.33%;
+    height: 300px;
+    margin: 10px;
+}

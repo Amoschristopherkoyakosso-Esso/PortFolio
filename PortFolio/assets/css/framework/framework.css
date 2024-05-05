@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-center{
+    text-align: center;
+}
+.flex-center-v{
+    justify-content: center;
+}
+.flex-center-h{
+    align-items: center;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-3{
+    flex: 3;
+}
+.flex-4{
+    flex: 4;
+}
+.gap-5{
+    gap: 5;
+}
+.gap-10{
+    gap: 10;
+}
+.gap-15{
+    gap: 15;
+}
+.gap-20{
+    gap: 20;
+}
+input, select, textarea{
+    outline: none;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+button, i{
+    cursor: pointer;
+}
+i:hover{
+    color: rgb(190, 170, 170);
+}
+header .header-icon i, i{ 
+    color: rgb(204, 201, 201);
+    font-size: 150px;
+}
+.space-top{
+    margin-top: 35px;
+}
+.police{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.margin-top{
+    margin-top: 50px;
+}
+p, q{
+    color: rgb(138, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.checked{
+    background-color: rgb(214, 213, 213);
+    border-right: 3px solid rgb(233, 233, 11);
+}
